@@ -1,0 +1,52 @@
+package bebitmobile.com.bebitmobile.data.pref;
+
+/**
+ * Created by tunggul.jati on 23/11/2016.
+ */
+
+public enum PrefKey {
+    IS_LOGIN,
+    EMAIL,
+    AUTH_TOKEN,
+    DEVICE_UNIQUE_ID,
+    MEMBERID,
+    IS_CHECK,
+    FIRSTNAME,
+    LASTNAME,
+    USERNAME,
+    DOB,
+    GENDER,
+    MOBILE_PHONE,
+    MEMBER_STATUS,
+    PASSWORD,
+    GCM_ID,
+    APP_VERSION,
+    BASE_URL,
+    FIRST_RUN_DONE,
+    MEMBER_TYPE,
+    IS_CHECK_CONTACT,
+    USER_STATUS,
+    vALID_EMAIL,
+
+
+    DEVICE_NO,
+    MEMBER_EMAIL,
+    MEMBER_FNAME,
+    MEMBER_LNAME,
+    LATITUDE,
+    LONGITUDE,
+    STARTDATE,
+    STARTTIME,
+    ACTIVITYTYPE,
+
+    INPUTDATE,
+    INPUTTIME,
+    INPUTLATITUDE,
+    INPUTLONGITUDE,
+
+    PROJECTCODESPINNER,
+    TASKACTIVITYSPINNER,
+
+    FORGOT_EMAIL,
+    FORGOT_TOKEN
+}

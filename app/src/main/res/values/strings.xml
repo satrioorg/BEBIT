@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BEBIT Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_editprofil">Edit Profil</string>
+    <string name="action_resetpass">Reset Password</string>
+    <string name="action_logout">Log Out</string>
+</resources>
