@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import bebitmobile.com.bebitmobile.R;
 import bebitmobile.com.bebitmobile.ui.BaseActivity;
+import bebitmobile.com.bebitmobile.ui.signinup.LoginActivity;
 import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity
@@ -93,6 +94,8 @@ public class MainActivity extends BaseActivity
             return true;
         }
         if (id == R.id.action_logout) {
+            LoginActivity.startActivity((BaseActivity) MainActivity.this);
+            finish();
             return true;
         }
 
@@ -140,9 +143,5 @@ public class MainActivity extends BaseActivity
     void showStartTestDialog3()
     {
         StartTestDialog std = new StartTestDialog(this);
-    }
-
-    public void closeMain(BaseActivity sourceActivity){
-        finish();
     }
 }
