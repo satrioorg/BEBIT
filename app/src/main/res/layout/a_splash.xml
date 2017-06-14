@@ -6,7 +6,7 @@
     android:background="@color/colorPrimary">
 
     <ImageView
-        android:id="@+id/pinjem"
+        android:id="@+id/img_bebit"
         android:layout_width="@dimen/_200sdp"
         android:layout_height="@dimen/_200sdp"
         android:layout_marginTop="@dimen/_120sdp"
